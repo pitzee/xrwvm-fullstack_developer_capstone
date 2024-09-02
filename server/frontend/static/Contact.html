@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
+  <style>
+    .contact-card {
+      width: 30%;
+      margin: 1%;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      transition: 0.3s;
+    }
+    .contact-card:hover {
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+    .contact-card-body {
+      padding: 16px;
+    }
+    .contact-title {
+      font-size: 1.5em;
+      color: darkturquoise;
+    }
+    .contact-text {
+      font-size: 1.2em;
+    }
+  </style>
+</head>
+<body>
+  <div class="card" style="width: 80%; margin: auto; margin-top: 5%;">
+    <div class="banner" name="contact-header">
+      <h1>Contact Us</h1>
+      <p>We'd love to hear from you! Reach out to us through any of the following methods:</p>
+    </div>
+    <div style="display: flex; flex-direction: row; margin: auto;">
+      <div class="contact-card">
+        <div class="contact-card-body">
+          <h5 class="contact-title">Phone</h5>
+          <p class="contact-text">+1 (555) 123-4567</p>
+        </div>
+      </div>
+      <div class="contact-card">
+        <div class="contact-card-body">
+          <h5 class="contact-title">Email</h5>
+          <p class="contact-text">contact@bestcars.com</p>
+        </div>
+      </div>
+      <div class="contact-card">
+        <div class="contact-card-body">
+          <h5 class="contact-title">Address</h5>
+          <p class="contact-text">123 Car Street, Auto City, NA 12345</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
